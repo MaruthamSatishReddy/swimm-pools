@@ -13,7 +13,7 @@ const About = (props: Props) => {
         <p className="text-md text-justify">
           Swimm Pools was founded to cater to the growing swimming pool market
           in India. It centers on construction, renovation and maintenance of
-          swimming pools with cost effective and quality solutions. Joy Pools
+          swimming pools with cost effective and quality solutions. Swimm Pools
           has developed key areas of strength like Domain and Technological
           Expertise, Skilled Manpower and Flawless Quality in Delivery to define
           its service. Joy Pools recognised that it must focus on strengths like

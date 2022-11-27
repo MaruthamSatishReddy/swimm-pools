@@ -17,14 +17,22 @@ const PoolTypes = (props: Props) => {
           className="relative group rounded-sm overflow-hidden transition-shadow"
         >
           <img
-            src="/images/swimpool/Infinity-Pool.jpg"
+            src="/images/swimpool/iPanelLinerPools.jpg"
             className="max-h-[300px] w-full"
           />
           <a
             href="#"
             className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 flex items-center justify-center text-xl text-white font-roboto font-medium tracking-wide"
           >
-            Infinity Pool
+            <div className="grid grid-flow-row auto-rows-max">
+              <p className="text-center transition-shadow animate-bounce">
+                iPanel Liner Pools
+              </p>
+
+              <motion.button className="rounded hover:rounded-lg text-gray-200 font-bold text-lg bg-gray-400 uppercase mt-10">
+                know more
+              </motion.button>
+            </div>
           </a>
         </motion.div>
 
@@ -34,14 +42,22 @@ const PoolTypes = (props: Props) => {
           className="relative group rounded-sm overflow-hidden "
         >
           <img
-            src="/images/swimpool/Overflow-Pools.jpg"
+            src="/images/swimpool/CompositePools.jpg"
             className="max-h-[300px] w-full"
           />
           <a
             href="#"
             className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 flex items-center justify-center text-xl text-white font-roboto font-medium tracking-wide"
           >
-            Overflow Pools
+            <div className="grid grid-flow-row auto-rows-max">
+              <p className="text-center transition-shadow animate-bounce">
+                Composite Pools
+              </p>
+
+              <motion.button className="rounded hover:rounded-lg text-gray-200 font-bold text-lg bg-gray-400 uppercase mt-10">
+                know more
+              </motion.button>
+            </div>
           </a>
         </motion.div>
         <motion.div
@@ -50,14 +66,22 @@ const PoolTypes = (props: Props) => {
           className="relative group rounded-sm overflow-hidden"
         >
           <img
-            src="/images/swimpool/Skimmer-Pools.jpg"
+            src="/images/swimpool/conventional-concrete-tile-pool.jpg"
             className="max-h-[300px] w-full"
           />
           <a
             href="#"
             className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 flex items-center justify-center text-xl text-white font-roboto font-medium tracking-wide"
           >
-            Skimmer Pools
+            <div className="grid grid-flow-row auto-rows-max">
+              <p className="text-center transition-shadow animate-bounce">
+                Conventional Concrete Tile Pools
+              </p>
+
+              <motion.button className="rounded hover:rounded-lg text-gray-200 font-bold text-lg bg-gray-400 uppercase mt-10">
+                know more
+              </motion.button>
+            </div>
           </a>
         </motion.div>
 
@@ -74,7 +98,15 @@ const PoolTypes = (props: Props) => {
             href="#"
             className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 flex items-center justify-center text-xl text-white font-roboto font-medium tracking-wide"
           >
-            Cardio Pools
+            <div className="grid grid-flow-row auto-rows-max">
+              <p className="text-center transition-shadow animate-bounce">
+                Cardio Pools
+              </p>
+
+              <motion.button className="rounded hover:rounded-lg text-gray-200 font-bold text-lg bg-gray-400 uppercase mt-10">
+                know more
+              </motion.button>
+            </div>
           </a>
         </motion.div>
       </div>
