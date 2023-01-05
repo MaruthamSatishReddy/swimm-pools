@@ -1,14 +1,13 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-
 type Props = {};
 
-const Services = (props: Props) => {
+const PoolFutures = (props: Props) => {
   return (
     <AnimatePresence>
       <div className="h-screen flex relative flex-col text-center md:text-left md:md:flex-row max-w-7xl justify-evenly mx-auto">
         <h3 className="absolute uppercase tracking-[2px] text-gray-500 text-xl items-center sm:p-10">
-          Pool Maintenance
+          Pool Futures
         </h3>
         <div className="max-h-[500px] flex max-w-[1000px] shadow-lg rounded-lg overflow-hidden mt-[90px] mr-50">
           <div className="w-1/2 bg-cover bg-landscape mr-10">
@@ -85,4 +84,4 @@ const Services = (props: Props) => {
   );
 };
 
-export default Services;
+export default PoolFutures;
