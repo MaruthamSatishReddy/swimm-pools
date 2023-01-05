@@ -8,7 +8,7 @@ const Header = (props: Props) => {
     <AnimatePresence>
       <div className="max-w-max max-h-max relative">
         <video autoPlay loop muted className="object-cover">
-          <source src="images/swimpool/pool-header.mp4" type="video/mp4" />
+          <source src="images/swimpool/video.mp4" type="video/mp4" />
         </video>
         <div className="absolute max-w-max max-h-full top-0 flex flex-col items-center py-8 px-7">
           <nav className="rounded-lg hover:text-gray-400">
