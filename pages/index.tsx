@@ -8,6 +8,7 @@ import Contact from '../components/Contact';
 import { ArrowUpCircleIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 import PoolFutures from '../components/PoolFutures';
+
 export default function Home() {
   return (
     <div className="h-screen bg-black text-white snap-y snap-mandatory overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
