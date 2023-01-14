@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 type Props = {};
 
@@ -7,9 +8,13 @@ const Header = (props: Props) => {
   return (
     <AnimatePresence>
       <div className="max-w-max max-h-max relative">
-        <video autoPlay loop muted className="object-cover">
-          <source src="images/swimpool/video.mp4" type="video/mp4" />
-        </video>
+        <Image
+          src="/images/swimpool/VIDEO_GIF.gif"
+          alt="My Gif"
+          height={500}
+          width={5000}
+        />
+
         <div className="absolute max-w-max max-h-full top-0 flex flex-col items-center py-8 px-7">
           <nav className="rounded-lg hover:text-gray-400">
             <div className="relative text-2xl text-white">
